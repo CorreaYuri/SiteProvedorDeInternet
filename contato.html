@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleContato.css">
+    <title>Contato</title>
+</head>
+<body >
+    <header id="containerHeader">
+        <div id="containerLogo">
+            
+        </div>
+        <nav id="navBar">
+            <a href="/provedordeinternet/index.html" target="_blank" rel="noopener noreferrer">Home</a>
+            <a href="/quemSomos.html" target="_blank" rel="noopener noreferrer">About Us</a>
+            <a href="/produtos.html" target="_blank" rel="noopener noreferrer">Produtos</a>
+            <a href="/contato.html" target="_blank" rel="noopener noreferrer">Contact</a>
+        </nav>
+    </header>
+
+    <main id="containerMain">
+        <div class="containerForm">
+            <h1 style="color: rgb(47, 47, 48)">Fale Connosco!</h1>
+            <form action="contato.php" method="post">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
+                <label for="assunto">Assunto</label>
+                <select name="assunto" id="assunto">
+                    <option value="Dúvida Geral">Dúvida Geral</option>
+                    <option value="Sugestão">Elogio</option>
+                    <option value="Reclamação">Reclamação</option>
+                    <option value="Sugestão">Sugestão</option>
+                </select>
+                <label for="mensagem">Mensagem:</label>
+                <textarea placeholder="Escreva aqui" name="mensagem" id="mensagem" cols="30"></textarea>
+                <button type="submit">Enviar Mensagem</button>
+                
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <span>Yuri.C   © 2024 - TI Inovation Inc. Todos os direitos</span> 
+      
+        <span>&#174;</span>
+    </footer>
+
+</body>
+</html>
